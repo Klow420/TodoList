@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script defer src="exo.js"></script>
+  </head>
+  <body class="bg-secondary-subtle">
+    <div
+      class="container d-flex flex-column justify-content-center align-items-center mt-5"
+    >
+      <h1>Todo List</h1>
+      <div class="form-group w-50">
+          <form>
+            <label class="col-form-label col-form-label-lg mt-4" for="inputLarge"
+            >Nom de la tâche</label
+            >
+            <input
+            class="form-control form-control-lg"
+            type="text"
+            placeholder="Entrer le nom de la tâche..."
+            id="inputNom"
+            />
+          </form>
+        </div>
+    </div>
+    <div
+      class="container d-flex flex-wrap gap-3 mt-4 justify-content-center align-items-center"
+    id = "taskListContainer">
+      <!-- <div class="card text-white bg-primary mb-3 w-25">
+        <div class="card-header">A faire</div>
+        <div class="card-body">
+          <p>Nom de la tâche</p>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>
